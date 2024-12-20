@@ -1,0 +1,41 @@
+.Search {
+    align-items: center;
+    display: flex;
+    gap: 5px;
+}
+
+.Search .Button {
+    height: 50px;
+    width: 150px;
+}
+
+.Search .Input, .Search .Input::placeholder {
+    align-items: center;
+    background-color: var(--c5);
+    border: none;
+    border-radius: 2px;
+    color: white;
+    font-size: 20px;
+    font-weight: 500;
+    outline: none;
+    padding: 10px;
+    width: 150px;
+}
+
+.Search .nick .Input {
+    width: 350px;
+}
+
+.Search .Button {
+    background-color: var(--c1);
+    border: none;
+    color: white;
+    font-size: 20px;
+    font-weight: 700;
+    outline: none;
+    text-shadow: 1px 0px 3px black;
+}
+
+.Search .Button:hover {
+    cursor: pointer;
+}

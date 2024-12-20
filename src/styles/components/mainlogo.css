@@ -1,0 +1,63 @@
+.MainLogo {
+    align-items: center;
+    border: solid 5px #f5c16b;
+    border-radius: 150px;
+    color: #f5c16b;
+    display: flex;
+    flex-direction: column;
+    height: 200px;
+    justify-content: center;
+    overflow: hidden;
+    position: relative;
+    width: 550px;
+}
+
+.MainLogo .league {
+    align-items: center;
+    display: flex;
+    font-size: 75px;
+    font-weight: 700;
+    margin-left: 130px;
+}
+
+.MainLogo .league img {
+    animation-name: moove;
+    animation-duration: 2s;
+    animation-timing-function: ease;
+    position: absolute;
+    transform: translate(-225px, -10px);
+    width: 300px;
+}
+
+.MainLogo .league::before {
+    animation-name: moove2;
+    animation-duration: 2s;
+    animation-timing-function: ease;
+    content: '';
+    background-color: var(--c4);
+    height: 130px;
+    position: absolute;
+    transform: translate(-350px, 0px);
+    width: 280px;
+}
+
+.MainLogo .search {
+    font-size: 40px;
+    font-weight: 700;
+    position: absolute;
+    transform: translate(115px, -35px);
+    color: #27d3d7;
+    animation-name: color;
+    animation-duration: 2s;
+}
+
+
+@keyframes moove {
+    from {transform: translate(190px, -10px);}
+    to {transform: translate(-225px, -10px);}
+} 
+
+@keyframes moove2 {
+    from {transform: translate(-10px, 0px);}
+    to {transform: translate(-350px, 0px);}
+} 
