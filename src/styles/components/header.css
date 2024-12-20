@@ -1,0 +1,45 @@
+.Header {
+    align-items: center;
+    background-color: var(--c5);
+    color: white;
+    display: flex;
+    height: 100px;
+    justify-content: center;
+    top: 0;
+    width: 100%;
+}
+
+.Header .logo {
+    border-radius: 100%;
+    padding: 5px;
+    height: fit-content;
+    width: fit-content;
+}
+
+.Header .links {
+    display: flex;
+    gap: 20px;
+}
+
+.Header .links .Link {
+    color: white;
+    font-size: 16px;
+    font-weight: 700;
+    position: relative;
+    text-decoration: none;
+}
+
+.Header .links .Link::after {
+    background-color: white;
+    content: '';
+    height: 2px;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 0px;
+    transition: all 250ms ease-in-out;
+}
+
+.Header .links .Link:hover::after {
+    width: 100%;
+}
