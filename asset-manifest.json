@@ -1,0 +1,14 @@
+{
+  "files": {
+    "main.css": "/leaguesearch/static/css/main.dab32d29.css",
+    "main.js": "/leaguesearch/static/js/main.2ae121b7.js",
+    "static/media/league.png": "/leaguesearch/static/media/league.a301b2db0dd08a5c317d.png",
+    "index.html": "/leaguesearch/index.html",
+    "main.dab32d29.css.map": "/leaguesearch/static/css/main.dab32d29.css.map",
+    "main.2ae121b7.js.map": "/leaguesearch/static/js/main.2ae121b7.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.dab32d29.css",
+    "static/js/main.2ae121b7.js"
+  ]
+}
