@@ -1,13 +1,14 @@
 {
   "files": {
-    "main.css": "/leaguesearch/static/css/main.e6c13ad2.css",
-    "main.js": "/leaguesearch/static/js/main.1a3bfa9d.js",
+    "main.css": "/leaguesearch/static/css/main.dab32d29.css",
+    "main.js": "/leaguesearch/static/js/main.df49c09a.js",
+    "static/media/league.png": "/leaguesearch/static/media/league.a301b2db0dd08a5c317d.png",
     "index.html": "/leaguesearch/index.html",
-    "main.e6c13ad2.css.map": "/leaguesearch/static/css/main.e6c13ad2.css.map",
-    "main.1a3bfa9d.js.map": "/leaguesearch/static/js/main.1a3bfa9d.js.map"
+    "main.dab32d29.css.map": "/leaguesearch/static/css/main.dab32d29.css.map",
+    "main.df49c09a.js.map": "/leaguesearch/static/js/main.df49c09a.js.map"
   },
   "entrypoints": [
-    "static/css/main.e6c13ad2.css",
-    "static/js/main.1a3bfa9d.js"
+    "static/css/main.dab32d29.css",
+    "static/js/main.df49c09a.js"
   ]
 }
